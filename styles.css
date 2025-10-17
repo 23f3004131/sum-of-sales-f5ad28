@@ -1,15 +1,29 @@
 body {
-    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls {
     margin-bottom: 20px;
 }
 
-h3 {
-    color: #007bff;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.table {
-    margin-top: 20px;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
 }
